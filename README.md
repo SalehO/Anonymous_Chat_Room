@@ -1,7 +1,7 @@
 # Anonymous_Chat_Room
 
 ## How to access the chat room?
-  1) Open the link https://omarsalehwebsite.000webhostapp.com/loginhtml.html 
+  1) Open the link https://omarsalehwebsite.000webhostapp.com/index.html
   2) Enter the username: billy
   3) Enter the password: pass1
   4) Click on the "Login" button to enter the chat room
