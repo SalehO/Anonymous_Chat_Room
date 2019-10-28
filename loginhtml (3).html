@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test</title>
+    </head>
+    <body>
+        <div align="center">
+        <header>
+            <h1> Welcome to my anonymous chat room. </h1>
+            
+        </header>
+        </div>
+        
+        <div align="center">
+        <form>
+            <input type="text" id="username" placeholder="Username">
+			<input type="password" id="password" placeholder="Password">
+			<button type="button" onclick="getInfo()">Login</button>
+        </form>
+        </div>
+        <script>
+            function getInfo()
+            {
+                var username = document.getElementById('username').value
+                var password = document.getElementById('password').value
+                if(username == "billy" && password == "pass1")
+                {
+                    //console.log("your username is " + username + " and your password is " + password)
+                    /*var ptr = document.createElement("img");
+                    ptr.src = "0001.jpg";
+                    ptr.style.width = '50%'
+                    ptr.style.height = 'auto'
+                    document.body.appendChild(ptr)*/
+                    
+                    //timeout window
+                    /*var myWindow = window.open("", "", "width=200, height=100");
+                    myWindow.document.write("<p>This is 'myWindow'</p>");
+                    setTimeout(function(){ myWindow.close() }, 3000);*/
+
+                   /* var ptr1 = document.createElement("img");
+                    ptr1.src = "0002.jpg";
+                    pt1r.style.width = '70%'
+                    ptr1.style.height = 'auto'
+                    document.body.appendChild(ptr1)*/
+                    //clear the page
+                    //document.getElementsByTagName('HTML')[0].innerHTML="";
+                    //window.open("https://ibb.co/8zwd1G2"); 
+                    window.open("https://omarsalehwebsite.000webhostapp.com/html.html","_self")
+                   // document.write("ok bye")
+                    
+                  /*  var url = './Saleh, Omar Resume.pdf';
+                    var url1 = './Unofficial Transcript.pdf';
+                    window.open(url,url1)*/
+                    
+                }
+                else
+                {
+                    alert("ERROR!!!! Wrong password")
+                   // document.write("<br>"+"        \tERROR!!!! Wrong password")
+                }
+            }
+
+            
+        </script>
+
+    </body>
+</html>

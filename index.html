@@ -1,0 +1,60 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="int.css">
+    </head>
+    <body>
+        <div align="center">
+
+        </div>
+        
+        <div class="login">
+            <h1>Login</h1>
+
+            <form method="post">
+                <input type="text" id="username" placeholder="Username">
+			    <input type="password" id="password" placeholder="Password">
+                <button type="button" id="myBtn" onclick="getInfo()" class="btn btn-primary btn-block btn-large">Let me in.</button>
+       </form>
+        </div>
+        <script>
+            window.addEventListener('keyup', function(event) {
+            if (event.keyCode === 13) {
+                getInfo()
+            }
+            });
+            function getInfo()
+            {
+                var username = document.getElementById('username').value
+                var password = document.getElementById('password').value
+                if(username == "billy" && password == "pass1")
+                {
+                    window.open("https://omarsalehwebsite.000webhostapp.com/html.html","_self")
+                }
+                else
+                {
+                    alert("ERROR!!!! Wrong password")
+                }
+            }
+
+            
+        </script>
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+    
